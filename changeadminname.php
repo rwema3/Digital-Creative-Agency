@@ -258,6 +258,18 @@ div#main{
 
     /*Bars Animations*/
     
+     div#input .bar{position: relative; display: block; width: 300px; }
+
+     div#input .bar:before, .bar:after{
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #5264ae;
+      transition: 0.2s ease all;
+    }
+
     div#input .bar:before {left: 50%; }
     div#input .bar:after {right: 50%; }
 
