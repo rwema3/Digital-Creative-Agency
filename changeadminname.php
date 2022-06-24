@@ -173,12 +173,6 @@ body{
 }
 
 
-#cssmenu ul ul li:hover > a,
-#cssmenu ul ul li.active > a
-{
-background-color:green;
-}
-
 div#main{
 
     width:70%;
