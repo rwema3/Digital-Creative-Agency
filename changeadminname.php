@@ -173,6 +173,17 @@ body{
 }
 
 
+div#main{
+
+    width:70%;
+    min-width: 913px;
+    min-height: 400px;
+    border:1px solid gray;
+    border-radius:3px;
+    background: #000033;
+
+}
+
 
  div#main input[type="submit"],input[type="reset"]
  {
