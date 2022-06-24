@@ -172,14 +172,6 @@ body{
   opacity: 1;
 }
 
-#cssmenu ul ul li a {
-  text-decoration: none;
-  font-weight: 900;
-  padding: 11px 25px;
-  width: 180px;
-  color: blue;
-  background:white;
-}
 
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li.active > a
