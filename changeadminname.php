@@ -258,6 +258,18 @@ div#main{
 
     /*Bars Animations*/
     
+    div#input .bar:before {left: 50%; }
+    div#input .bar:after {right: 50%; }
+
+    /*INPUT VALIDATIONS*/
+
+      div#input  input:valid {border-bottom: 1px solid #4fc24f; }
+
+     div#input input:valid ~ .bar:before,
+     div#input input:valid ~ .bar:after {
+      background-color: #4fc24f !important;
+        }
+
        div#input input:focus ~ label,
     div#input input.used ~ label {
       top: -20px;
