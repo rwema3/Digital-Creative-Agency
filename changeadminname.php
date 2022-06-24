@@ -173,21 +173,6 @@ body{
 }
 
 
-
- div#main input[type="submit"],input[type="reset"]
- {
-
-      color: white;
-      font-size: 13px;
-      background: #000033;
-      font-family: cursive;
-      width: 70px;
-      height: 40px;
-      position: center;
-      font-style: bold;
-    
-     }
-
 .success
 {
   font-size:14px;
