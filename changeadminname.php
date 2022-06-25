@@ -243,73 +243,12 @@ div#main{
       transition: 0.2s ease all;
     } 
 
-   div#input  input{
-      color: #909090;
-      font-size: 15px;
-      padding: 10px 0px 10px 0px;
-      display: block;
-      outline: none;
-      border: none;
-      font-family: cursive;
-      background: #000033;
-      width: 300px;
-      border-bottom: 1px solid #d2d2d2; 
-    }
-
-    /*Bars Animations*/
-    
-     div#input .bar{position: relative; display: block; width: 300px; }
-
-     div#input .bar:before, .bar:after{
-      content: "";
-      height: 2px;
-      width: 0;
-      bottom: -1px;
-      position: absolute;
-      background: #5264ae;
-      transition: 0.2s ease all;
-    }
-
-    div#input .bar:before {left: 50%; }
-    div#input .bar:after {right: 50%; }
-
-    /*INPUT VALIDATIONS*/
-
-      div#input  input:valid {border-bottom: 1px solid #4fc24f; }
-
-     div#input input:valid ~ .bar:before,
-     div#input input:valid ~ .bar:after {
-      background-color: #4fc24f !important;
-        }
-
-       div#input input:focus ~ label,
-    div#input input.used ~ label {
-      top: -20px;
-      font-size: 13px;
-      color: #5264ae;
-    }
-
    div#input input:valid ~ label,
    div#input input:valid.used ~ label {
       color: #4fc24f;
     }
 
-   div#input input:focus ~ .bar:before,
-    div#input input:focus ~ .bar:after{
-      width: 50%;
-    }
-.rwema{
-
-   background-image: url(administ.jpg);
-    border: 2px;
-    margin-left: 10px;
-    color: white;
-    text-align: center;
-    font-family: cursive;
-    font-size: 16px;
-    width: 900px;
-    height: 40px;
-}
+  
 
 </style>
 </head>
