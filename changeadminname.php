@@ -256,6 +256,9 @@ div#main{
       border-bottom: 1px solid #d2d2d2; 
     }
 
+    /*Bars Animations*/
+    
+     div#input .bar{position: relative; display: block; width: 300px; }
 
    div#input input:valid ~ label,
    div#input input:valid.used ~ label {
