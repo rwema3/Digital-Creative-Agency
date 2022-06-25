@@ -243,7 +243,20 @@ div#main{
       transition: 0.2s ease all;
     } 
 
-   
+   div#input  input{
+      color: #909090;
+      font-size: 15px;
+      padding: 10px 0px 10px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      font-family: cursive;
+      background: #000033;
+      width: 300px;
+      border-bottom: 1px solid #d2d2d2; 
+    }
+
+    
       div#input  input:valid {border-bottom: 1px solid #4fc24f; }
 
      div#input input:valid ~ .bar:before,
