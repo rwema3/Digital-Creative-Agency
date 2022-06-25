@@ -248,7 +248,11 @@ div#main{
       color: #4fc24f;
     }
 
-  
+   div#input input:focus ~ .bar:before,
+    div#input input:focus ~ .bar:after{
+      width: 50%;
+    }
+
 
 </style>
 </head>
