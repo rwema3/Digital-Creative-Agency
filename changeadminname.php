@@ -252,7 +252,18 @@ div#main{
     div#input input:focus ~ .bar:after{
       width: 50%;
     }
+.rwema{
 
+   background-image: url(administ.jpg);
+    border: 2px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    width: 900px;
+    height: 40px;
+}
 
 </style>
 </head>
