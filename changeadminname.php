@@ -256,7 +256,11 @@ div#main{
       border-bottom: 1px solid #d2d2d2; 
     }
 
+    /*Bars Animations*/
     
+     div#input .bar{position: relative; display: block; width: 300px; }
+
+
     div#input .bar:before {left: 50%; }
     div#input .bar:after {right: 50%; }
 
