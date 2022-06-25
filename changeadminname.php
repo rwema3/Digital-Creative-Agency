@@ -257,6 +257,11 @@ div#main{
     }
 
     
+    div#input .bar:before {left: 50%; }
+    div#input .bar:after {right: 50%; }
+
+    /*INPUT VALIDATIONS*/
+
       div#input  input:valid {border-bottom: 1px solid #4fc24f; }
 
      div#input input:valid ~ .bar:before,
