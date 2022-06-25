@@ -260,6 +260,13 @@ div#main{
     
      div#input .bar{position: relative; display: block; width: 300px; }
 
+       div#input input:focus ~ label,
+    div#input input.used ~ label {
+      top: -20px;
+      font-size: 13px;
+      color: #5264ae;
+    }
+
    div#input input:valid ~ label,
    div#input input:valid.used ~ label {
       color: #4fc24f;
